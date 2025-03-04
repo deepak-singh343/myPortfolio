@@ -13,7 +13,7 @@ const Skills = () => (
     className="w-full flex flex-col items-center pb-5 bg-gray-100"
   >
     <h1 className="flex justify-between items-center gap-4 m-8 text-4xl font-normal">
-      <span className="inline-block pt-2.5 mr-2 text-[#2857a4]">
+      <span className=" text-[#2857a4]">
         <FaChalkboardUser />
       </span>
       <span className="text-[#2857a4]">SKILLS</span>
