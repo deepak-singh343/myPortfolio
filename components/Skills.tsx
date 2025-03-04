@@ -40,7 +40,7 @@ const Skills = () => (
             >
               <div className="flex flex-col items-center justify-center md:min-w-[120px] md:min-h-[120px] w-[80px] h-[80px]">
                 <Image
-                  src={skill.Image}
+                  src={skill.image}
                   alt={skill.name}
                   width={80}
                   height={80}

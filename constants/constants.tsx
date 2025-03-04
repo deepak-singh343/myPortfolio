@@ -31,16 +31,18 @@ export const socials = [
 ];
 
 export const skillData = [
-  { name: "HTML", Image: "/skills/html.png" },
-  { name: "CSS", Image: "/skills/css.png" },
-  { name: "JavaScript", Image: "/skills/js.png" },
-  { name: "Tailwind CSS", Image: "/skills/tailwind.png" },
-  { name: "ReactJS", Image: "/skills/react.png" },
-  { name: "Redux", Image: "/skills/redux.png" },
-  { name: "TypeScript", Image: "/skills/ts.png" },
-  { name: "NextJS", Image: "/skills/next.png" },
-  { name: "NodeJS", Image: "/skills/node-js.png" },
-  { name: "MongoDB", Image: "/skills/mongodb.png" },
+  { name: "HTML", image: "/skills/html.png" },
+  { name: "CSS", image: "/skills/css.png" },
+  { name: "JavaScript", image: "/skills/js.png" },
+  { name: "Tailwind CSS", image: "/skills/tailwind.png" },
+  { name: "ReactJS", image: "/skills/react.png" },
+  { name: "Redux", image: "/skills/redux.png" },
+  { name: "TypeScript", image: "/skills/ts.png" },
+  { name: "NextJS", image: "/skills/next.png" },
+  { name: "NodeJS", image: "/skills/node-js.png" },
+  { name: "Express", image: "/skills/express.png" },
+  { name: "MongoDB", image: "/skills/mongodb.png" },
+  { name: "MongoDB", image: "/skills/git.png" },
 ];
 
 export const projects = [
