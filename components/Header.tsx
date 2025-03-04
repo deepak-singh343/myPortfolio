@@ -28,15 +28,18 @@ const Header = () => {
             <FaBars />
           </div>
           {showMenu && (
-            <div className="dropdown-list nav-menu bg-[#828470] shadow-lg absolute right-3 top-10">
-              <ul className="no-list-style p-2 text-left">
+            <div className="dropdown-list nav-menu bg-white  border  absolute right-3 top-8.5 rounded">
+              <ul className="no-list-style text-left">
                 {navs.map((nav, index) => {
                   return (
-                    <li className="my-1" key={index}>
+                    <li
+                      className="text-sm border-b text-[#2857a4] last:border-none px-[0.5rem] py-[0.3rem]"
+                      key={index}
+                    >
                       <Link
                         onClick={handleMenuToggle}
                         href={nav.link}
-                        className="text-white text-sm no-underline"
+                        className=" text-sm no-underline"
                       >
                         {nav.title}
                       </Link>
