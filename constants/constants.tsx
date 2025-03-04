@@ -105,7 +105,7 @@ export const experience = [
     id: 1,
     title: "Styledotme Fashion And Lifestyle Private Limited",
     profile: "Frontend Developer SDE 2",
-    duration: "Feb 2022 - Dec @024",
+    duration: "Feb 2022 - Dec 2024",
     link: "https://www.linkedin.com/company/mirrar-technology/",
   },
   {

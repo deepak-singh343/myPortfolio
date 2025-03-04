@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   const downloadCV = () => {
-    const pdfUrl = "/Deepak_Singh_Resume";
+    const pdfUrl = "/Deepak_Singh_Resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Deepak_Singh_Resume.pdf";
