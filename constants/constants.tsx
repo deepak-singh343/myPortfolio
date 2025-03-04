@@ -42,7 +42,7 @@ export const skillData = [
   { name: "NodeJS", image: "/skills/node-js.png" },
   { name: "Express", image: "/skills/express.png" },
   { name: "MongoDB", image: "/skills/mongodb.png" },
-  { name: "MongoDB", image: "/skills/git.png" },
+  { name: "Git", image: "/skills/git.png" },
 ];
 
 export const projects = [
