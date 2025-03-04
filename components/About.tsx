@@ -27,8 +27,8 @@ const About = () => {
       <div className="p-2.5 md:w-1/2 w-[90%] text-justify text-gray-600 md:text-lg text-sm">
         Skilled Web Developer with 4.2 years of experience in developing
         responsive web applications that enhances user experience. With a strong
-        foundation in web technologies I focus on building clean, efficient, and
-        scalable code. I'm always eager to learn and keep up with the latest
+        foundation in web technologies i focus on writing clean, efficient, and
+        scalable code. I am always eager to learn and keep up with the latest
         trends.
       </div>
       <div className="flex justify-center items-center mt-8">
