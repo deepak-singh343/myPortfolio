@@ -4,6 +4,7 @@ import { FaRegListAlt } from "react-icons/fa";
 import { ProjectCard } from "./ProjectCard";
 import { DividerForProjects } from "./DividerForProjects";
 import { FaArrowUp } from "react-icons/fa";
+import Link from "next/link";
 
 const Projects = () => {
   const scrollToTop = () => {
@@ -31,13 +32,13 @@ const Projects = () => {
           ))}
         <DividerForProjects />
       </div>
-      <div className="flex justify-end w-full mr-10">
+      <Link href="/" className="flex justify-end w-full mr-10">
         <FaArrowUp
           onClick={scrollToTop}
           size={30}
           className="z-5 w-[1.5rem] h-[1.5rem] cursor-pointer text-[#eb822d]"
         />
-      </div>
+      </Link>
     </section>
   );
 };

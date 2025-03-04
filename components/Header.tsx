@@ -13,7 +13,10 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full md:h-[22rem] h-[10rem] opacity-80 bg-black">
+    <header
+      id="header"
+      className="w-full md:h-[22rem] h-[10rem] opacity-80 bg-black"
+    >
       <nav className="mt-4">
         {/* Dropdown Menu */}
         <div className="dropdown-menu text-right md:hidden block">
