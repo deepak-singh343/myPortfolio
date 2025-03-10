@@ -15,7 +15,7 @@ export const ExperienceCard = ({ experience }: Experience) => {
         <div className="w-4 h-4 bg-gray-400 rounded-full relative top-4 z-1"></div>
       </div>
       <div
-        className={`timeline-box w-full min-h-[100px] flex text-right ${
+        className={`relative z-10 timeline-box w-full min-h-[100px] flex text-right ${
           experience.id % 2 == 0
             ? "md:justify-end justify-start md:ml-[-3rem]"
             : "justify-start "
